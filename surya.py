@@ -74,14 +74,14 @@ def siapa():
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mNuhun Tos Make Alat Ieu !!")
+		jalan("\033[1;97mSampurasun \033[1;92m" +nama+ "\n\033[1;97mNuhun Tos Make Alat Ieu !!")
 		time.sleep(1)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	print"\033[1;97mAbuskeun Akun Na Hela!!!\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="uya" and password =="fadhil":
@@ -139,7 +139,7 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mLebok Akunna Benang Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
@@ -207,7 +207,7 @@ def Milih():
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
-		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
+		print "\033[1;96m[!] \x1b[1;91mIsi Nu Bener"
 		pilih()
 		
 		
@@ -234,7 +234,7 @@ def super():
 def pilih_super():
 	peak = raw_input("\n\033[1;97m >>> \033[1;97m")
 	if peak =="":
-		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
+		print "\033[1;96m[!] \x1b[1;91mIsi Nu Bener"
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
@@ -255,7 +255,7 @@ def pilih_super():
 			op = json.loads(jok.text)
 			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama teman\033[1;91m :\033[1;97m "+op["name"]
 		except KeyError:
-			print"\033[1;96m[!] \x1b[1;91mTeman tidak ditemukan!"
+			print"\033[1;96m[!] \x1b[1;91mBabaturan Ewh!"
 			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
 		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
@@ -267,13 +267,13 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		idg=raw_input('\033[1;96m[+] \033[1;93mMasukan ID group \033[1;91m:\033[1;97m ')
+		idg=raw_input('\033[1;96m[+] \033[1;93mAbuskeun ID group \033[1;91m:\033[1;97m ')
 		try:
 			r=requests.get('https://graph.facebook.com/group/?id='+idg+'&access_token='+toket)
 			asw=json.loads(r.text)
-			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama group \033[1;91m:\033[1;97m "+asw['name']
+			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNgaran group \033[1;91m:\033[1;97m "+asw['name']
 		except KeyError:
-			print"\033[1;96m[!] \x1b[1;91mGroup tidak ditemukan"
+			print"\033[1;96m[!] \x1b[1;91mGroup Eweh!"
 			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
 		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
