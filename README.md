@@ -1,11 +1,2 @@
-apt update && apt upgrade -y
-
-pkg install python2
-
-pkg install git
-
-pip2 install requests
-
-pip2 install mechanize
-
-git clone https://github.com/SFGamink/surya.git
+multi_dev
+Instaling /n pkg install python2 /n pip2 install PTable /n pip2 install mehanize /n
