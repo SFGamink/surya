@@ -1,6 +1,11 @@
-# multi_dev
+# Penginstalan.....
 
-Instaling /n
-pkg install python2 /n
-pip2 install PTable /n
-pip2 install mehanize /n
+$pkg update && pkg upgrade
+$pkg install python2
+$pkg install git
+$git clone https://github.com?SFGamink/surya
+$cd surya
+$python2 surya.py
+
+
+# UNTUK YANG LAINNYA INSTALL OTOMATIS DALAM SCRIPT
