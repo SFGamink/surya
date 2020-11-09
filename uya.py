@@ -143,7 +143,7 @@ if __name__ == '__main__':
 				subprocess.check_output(['am', 'start', 'https://t.me/exoProKiKi'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except KeyboardInterrupt:
-				subprocess.check_output(['am', 'start', 'https://www.instagram.com/iqbaldev/'])
+				subprocess.check_output(['am', 'start', 'https://t.me/exoProKiKi/'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except WindowsError:
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
