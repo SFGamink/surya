@@ -6,14 +6,14 @@ import os
 try:
 	import requests
 except ImportError:
-	print " \033[93;1m\n     Didinya Acan Install modul Requests,\n   Teken Enter Arek Install Requests... "
+	print " \033[93;1m\n     Didinya Acan Install modul Requests,\n   Teken Enter Arek Install Modul Requests... "
 	raw_input(" ====>")
 	os.system("pip install requests" if os.name == 'nt' else 'pip2 install requests')
 	
 try:
 	from prettytable import PrettyTable
 except ImportError:
-	print " \033[93;1m\n      Didinya Acan Install modul PTable,\n   Teken Enter Arek Install PTable... "
+	print " \033[93;1m\n      Didinya Acan Install modul PTable,\n   Teken Enter Arek Install Modul PTable... "
 	raw_input(" ====>")
 	os.system("pip install PTable" if os.name == 'nt' else 'pip2 install PTable')
 	
